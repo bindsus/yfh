@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+/*导航栏开始*/
+.head-nav{
+    height: 48px;
+    width: 100vw;
+    background-color: #333333;
+    margin: 0 auto;
+}
+.head-nav .head-nav-world{
+    width: 1414px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.head-nav .head-nav-world ul {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    height: 100%;
+}
+.head-nav .head-nav-world ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.head-nav .head-nav-world ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ada9a8;
+    height: 50%;
+    padding-left: 12px;
+}
+.head-nav .head-nav-world ul span{
+    font-size: 12px;
+    color: #363b3e;
+    height: 24px;
+
+}
+.head-nav .head-nav-world ul li a:hover{
+    color: #ffffff;
+}
+.head-nav .head-nav-world .head-nav-world-right{
+    display: block;
+}
+.head-nav .head-nav-world .sign-in{
+    margin-left: 183px;
+}
+.head-nav .head-nav-world .buy{
+    background-color: #424242;
+    padding-right: 12px;
+}
+
+/*导航栏结束*/
